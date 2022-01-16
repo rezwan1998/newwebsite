@@ -18,4 +18,58 @@ h1{
 }
 .half-width img{
     width: 100%;
+    
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding: 70px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.half-width p{
+    padding-bottom: 10px;
+}
+.middle-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.bottom-bnner{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bottom-bnner h1{
+    padding-bottom: 30px;
+}
+.exp-site{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+    
+}
+#babyweb{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    padding-bottom: 30px;
 }
